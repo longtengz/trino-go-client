@@ -105,10 +105,10 @@ var (
 )
 
 const (
-	trinoHeaderPrefix = `X-Trino-`
+	trinoHeaderPrefix = `X-Presto-`
 
 	preparedStatementHeader = trinoHeaderPrefix + "Prepared-Statement"
-	preparedStatementName   = "_trino_go"
+	preparedStatementName   = "_presto_go"
 
 	trinoUserHeader            = trinoHeaderPrefix + `User`
 	trinoSourceHeader          = trinoHeaderPrefix + `Source`
